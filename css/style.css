@@ -115,8 +115,7 @@ hr{
 
 
 .card-single-artist{
-    position: relative;    
-    margin-right: 50px;
+    position: relative; 
     margin-top: 50px;
 }
 
@@ -483,7 +482,23 @@ footer a{
     padding-left: 180px;
 } */
 
+.container-block-artist{
+    display: flex;
+    align-items: center;
+    width: 80%;
+}
+.info-mostra-title {
+    width: 40%;
+}
 
+.info-mostra-title-artist {
+    width: 40%;
+    text-align: center;
+}
+
+.container-text{
+    width: 60%;
+}
 
 
 .section-container__white-form__index{
@@ -548,7 +563,9 @@ footer a{
         height: 350px;
         border-radius: 20px;
     }
-
+    .card-single-artist{   
+        margin-right: 50px;
+    }
     
 }
 
